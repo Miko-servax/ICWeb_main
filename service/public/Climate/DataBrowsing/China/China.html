@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>数据总览</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<script type="text/javascript" src="js/china.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="head clearfix">
+		<h1 class="pulll_left" style="letter-spacing:normal;margin: auto;position: absolute;left: 0;right: 300px;user-select: none">碳中和目标下的碳排放与绿化数据可视化</h1>
+		<div class="menu menu2 right-float" style="position: absolute;right: 0;">
+			<ul>
+				<li><a href="../../ClimateForecast/DataForecast.html">预测</a></li>
+				<li><a href="../../WordCloud/WordCloud.html">词云</a></li>
+				<li><a href="../../../Welcome/Welcome.html">首页</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="mainbox">
+		<ul class="clearfix nav1">
+			<li style="width: 22%">
+				<div class="box">
+					<div class="tit">目标数据</div>
+					<div class="boxnav" style="height: 330px;">
+						<div class="yqlist">
+				            <ul class="clearfix">
+				                <li>
+				                	<div class="yq" id="yq">2030年</div>
+				                	<span>碳达峰目标年</span>
+				                </li>
+				                <li>
+				                	<div class="yq">2060年</div>
+				                	<span>碳中和目标年</span>
+				                </li>
+				                <li>
+				                	<div class="yq">100%</div>
+				                	<span>可再生能源利用率</span>
+				                </li>
+				                <li>
+				                	<div class="yq">0</div>
+				                	<span>最终碳排放</span>
+				                </li>
+				    		</ul>
+		    			</div>
+					</div>
+				</div>
+				<div class="box">
+					<div class="tit">历年人均碳排放量</div>
+					<div><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单位：吨二氧化碳当量/人</div>
+					<div class="boxnav" style="height: ;">
+						<div class="" style="height: 368px" id="echart2">
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li style="width: 56%">
+				<div class="box">
+					<div class="boxnav mapc" style="height: 550px; position: relative">
+						<div class="map" id="map"></div>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="tit">碳排放与绿化
+						<a href="javacript:;">&nbsp;&nbsp;&nbsp;2009&nbsp;</a>
+            			<a href="javacript:;">&nbsp;&nbsp;2010&nbsp;</a>
+            			<a href="javacript:;">&nbsp;&nbsp;2011&nbsp;</a>
+            			<a href="javacript:;">&nbsp;&nbsp;2012&nbsp;</a>
+            			<a href="javacript:;">&nbsp;&nbsp;2013&nbsp;</a>
+            			<a href="javacript:;">&nbsp;&nbsp;2014&nbsp;</a>
+            			<a href="javacript:;">&nbsp;&nbsp;2015&nbsp;</a>
+            			<a href="javacript:;">&nbsp;&nbsp;2016&nbsp;</a>
+            			<a href="javacript:;">&nbsp;&nbsp;2017&nbsp;</a>
+            			<a href="javacript:;">&nbsp;&nbsp;2018&nbsp;</a>
+            			<a href="javacript:;">&nbsp;&nbsp;2019&nbsp;</a>
+            			<a href="javacript:;">&nbsp;&nbsp;2020&nbsp;</a>
+            			<!-- <a href="javacript:;">&nbsp2021&nbsp</a> -->
+						<div class="boxnav" style="height: 250px;"  id="echart3">
+					</div>
+				</div>
+			</li>
+
+			<li style="width: 22%">
+				<div class="box">
+					<div class="tit">历次全国森林资源清查数据</div>
+					<div class="boxnav" id="echart4" style="height: 200px;"></div>
+				</div>
+				<div class="box">
+					<div class="tit">全国碳达峰碳中和值数</div>
+					<div class="boxnav" style="height: 250px;" id="echart5" ></div>
+				</div>
+				<div class="box">
+					<div class="tit">能源消费结构分布</div>
+					<div class="boxnav" style="height: 250px;" id="echart6"></div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

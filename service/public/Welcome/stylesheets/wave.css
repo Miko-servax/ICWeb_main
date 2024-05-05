@@ -1,0 +1,26 @@
+.wave{
+    background-image: url("../img/wave.png");/*设置元素背景图像*/
+    -webkit-background-clip: text; /*背景被裁剪到文字*/
+    -webkit-text-fill-color: transparent; /*设置文字的填充颜色*/
+    text-shadow: 0px 0px rgba(255, 255, 255, 0.1); /*设置文字阴影*/
+    -webkit-animation:wave-animation 1s infinite linear, loading-animation 6s infinite linear alternate; /*设置动画*/
+    background-size: 200px 100px; /*设置背景图像尺寸*/
+    background-repeat: repeat-x;
+    opacity: 1;
+}
+@-webkit-keyframes wave-animation {/*创建动画*/
+    0% {
+        background-position: 0 bottom;
+    }
+    100% {
+        background-position: 200px bottom;
+    }
+}
+@-webkit-keyframes loading-animation {/*创建动画*/
+    0% {
+        background-size: 200px 200px;
+    }
+    100% {
+        background-size: 200px 0px;
+    }
+}
