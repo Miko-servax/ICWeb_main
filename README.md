@@ -142,11 +142,11 @@ VITE_GLOB_API_URL=http://127.0.0.1:9520/api
 
 第三步： npm start  后将会启动项⽬，并默认会监听 9520  端口。
 
-![image-20240505173722106](C:\Users\xqsx4\AppData\Roaming\Typora\typora-user-images\image-20240505173722106.png)
+![image-20240505173722106](https://github.com/Miko-servax/ICWeb_main/assets/75205512/a8d6032e-9e30-45f5-a307-3fb0035d1364)
 
 查看日志确认是否 9520  监控成功，执行`pm2 logs 0`
 
-![image-20240505173759661](C:\Users\xqsx4\AppData\Roaming\Typora\typora-user-images\image-20240505173759661.png)
+![image-20240505173759661](https://github.com/Miko-servax/ICWeb_main/assets/75205512/13021916-1238-4a05-8841-6ae33db7ae7e)
 
 
 
@@ -190,32 +190,31 @@ access_log  /home/wwwlogs/www.xxx.com.log;
 
 #### 首界面
 
-![image-20240505175128745](C:\Users\xqsx4\AppData\Roaming\Typora\typora-user-images\image-20240505175128745.png)
+![image](https://github.com/Miko-servax/ICWeb_main/assets/75205512/13060cff-059a-4545-9f1d-a3fc4ba5bc9e)
 
 
 
 #### 智慧气象模块
 
-![image-20240505175305607](C:\Users\xqsx4\AppData\Roaming\Typora\typora-user-images\image-20240505175305607.png)
+![image-20240505175305607](https://github.com/Miko-servax/ICWeb_main/assets/75205512/a04c157f-6d9b-42aa-aae3-e3a4bb569f71)
 
 
 
 #### 碳中和模块
 
-![image-20240505175149309](C:\Users\xqsx4\AppData\Roaming\Typora\typora-user-images\image-20240505175149309.png)
+![image-20240505175149309](https://github.com/Miko-servax/ICWeb_main/assets/75205512/280b1132-473d-4754-bc11-52c5290316b2)
 
 
 
 #### AI赋能模块
 
-![image-20240505175233881](C:\Users\xqsx4\AppData\Roaming\Typora\typora-user-images\image-20240505175233881.png)
+![image-20240505175233881](https://github.com/Miko-servax/ICWeb_main/assets/75205512/5e56265f-b9a1-49a1-80ee-d9419aeb91a6)
 
 
 
 #### GraphCast预测模块
 
-![image-20240505175250563](C:\Users\xqsx4\AppData\Roaming\Typora\typora-user-images\image-20240505175250563.png)
-
+![image-20240505175250563](https://github.com/Miko-servax/ICWeb_main/assets/75205512/3738811c-4eda-4a97-8299-d17cff675f3c)
 
 
 
@@ -224,8 +223,8 @@ access_log  /home/wwwlogs/www.xxx.com.log;
 
 - GraphCast开源训练模型 **[GraphCast-from-Ground-Zero](https://github.com/sfsun67/GraphCast-from-Ground-Zero)**
 
-- 三维化地球模型接口 [earth](https://github.com/cambecc/earth)
+- 三维化地球模型接口 **[earth](https://github.com/cambecc/earth)**
 
-- ERA5数据集 https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form 
+- ERA5数据集 **https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form**
 
-- Google气象数据集 https://cloud.google.com/storage/docs/public-datasets/era5?hl=zh-cn
+- Google气象数据集 **https://cloud.google.com/storage/docs/public-datasets/era5?hl=zh-cn**
